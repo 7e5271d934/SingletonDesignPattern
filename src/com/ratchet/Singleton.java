@@ -4,6 +4,8 @@ public class Singleton {
 
     private static Singleton singletonInstance;
 
+    private static int total = 224;
+
     private Singleton() {
         singletonInstance = this;
     }
@@ -15,5 +17,11 @@ public class Singleton {
 
         return singletonInstance;
     }
+
+    public int getTotal(){
+        return total;
+    }
+
+
 
 }
