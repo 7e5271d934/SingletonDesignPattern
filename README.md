@@ -26,3 +26,6 @@
 		    The "static member function accessor" approach will not support subclassing of the Singleton class. If subclassing is desired, refer to the discussion in the book.
 
 		    Deleting a Singleton class/instance is a non-trivial design problem. See "To Kill A Singleton" by John Vlissides for a discussion.
+
+#  Source
+https://sourcemaking.com/design_patterns/singleton
